@@ -19,5 +19,8 @@
   "homepage": "https://github.com/nouri2i/cypressTests#readme",
   "dependencies": {
     "cypress": "^9.7.0"
+  },
+  "devDependencies": {
+    "junit-report-merger": "^4.0.0"
   }
 }
