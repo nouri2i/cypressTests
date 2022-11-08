@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-11-08T16:29:39" tests="1" file="cypress/integration/test.spec.js" time="0.0000" failures="1">
+    <testcase name="Login demo" time="0.0000" classname="Login demo">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;p.oxd-userdropdown-name&gt;&apos; to contain text &apos;ajay Chaudary&apos;, but the text was &apos;Paul Collings&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<p.oxd-userdropdown-name>' to contain text 'ajay Chaudary', but the text was 'Paul Collings'
+    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\integration\test.spec.js:121:36)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
