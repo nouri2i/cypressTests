@@ -1,4 +1,9 @@
 {
     "watchForFileChanges":true,
-    "defaultCommandTimout":5000
+    "defaultCommandTimout":5000,
+
+     "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/my-test-output-[hash].xml"
+  }
 }
