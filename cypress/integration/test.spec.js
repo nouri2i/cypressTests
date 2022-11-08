@@ -20,5 +20,6 @@ it.only('Login demo', () => {
    // cy.contains('User Management')
     // cy.contains("Add").click()
     cy.get(".orangehrm-header-container .oxd-button--secondary").click()
-    cy.get('.oxd-button--secondary').click()
+    // cy.get('.oxd-button--secondary').click().
+    cy.get('.oxd-userdropdown-name').should("contain.text","ajay Chaudary")
 })
